@@ -6,7 +6,9 @@
 h1{
 	text-align: center;
 	margin: 20px;
-     font-family: "Lucida Handwriting",  monospace;
+       font-family: "Lucida Handwriting", cursive, monospace;
+       color: #3D9970;
+       font-weight: bold;
 }
 
 
@@ -15,28 +17,35 @@ h1{
 	top: 0;
 	right:0;
 	width: 100px;
+	height: 25px;
 	text-align: center;
-	border: 1px solid black;
+	border: 4px solid black;
+	float: right;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-weight: bold;
+        
 }
 article{
 	
 	padding: 25px;
+        padding-top: 35px;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        border: 4px solid black;
 
 }
 
 .section {	
 	background-color: darkgrey;
-	border: 2px solid black;
 	position: relative;
-     
+        width: 85%;
 	margin-right: auto;
-     margin-left: 10px;
+        margin-left: auto;
 
 }
 
 #chicken{
 	background-color: pink;
-        color: white;
+     
 }
 
 #beef{
@@ -46,7 +55,7 @@ article{
 
 #sushi{
 	background-color: #CCCC00; 
-        color: white;
+        
 }
 
 
@@ -141,7 +150,7 @@ article{
     width: 100%;
   }
   #section3{
-  	width: 95%;
+        width: 93%;
   	margin-top: 30px;
   }
 }
